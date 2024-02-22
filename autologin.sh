@@ -7,8 +7,8 @@ mac=""
 key=""
 
 # Account detail
-username="1Kesalahan"
-password="1Kesalahan"
+username="gimanaya"
+password="gimanaya"
 type="wmslite"
 sid="1773207908"
 gw_id="WAG-D2-CKA"
