@@ -46,11 +46,11 @@ connect() {
         --data-urlencode "username=$username.$key@$type.$sid" \
         --data-urlencode "password=$password" \
         -H "accept: application/json, text/javascript, */*; q=0.01" \
-		-H "accept-language: en-US,en;q=0.9,id;q=0.8" \
-		-H "connection: keep-alive" \
-		-H "content-type: application/x-www-form-urlencoded; charset=UTF-8" \
-		-H "origin: https://welcome2.wifi.id" \
-		-H "referer: https://welcome2.wifi.id/wms/?gw_id=$gw_id&client_mac=$mac&wlan=$wlan&sessionid=$sessionid" \
+	-H "accept-language: en-US,en;q=0.9,id;q=0.8" \
+	-H "connection: keep-alive" \
+	-H "content-type: application/x-www-form-urlencoded; charset=UTF-8" \
+	-H "origin: https://welcome2.wifi.id" \
+	-H "referer: https://welcome2.wifi.id/wms/?gw_id=$gw_id&client_mac=$mac&wlan=$wlan&sessionid=$sessionid" \
         -H 'sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"' \
         -H "sec-ch-ua-mobile: ?0" \
         -H "sec-ch-ua-platform: Linux" \
